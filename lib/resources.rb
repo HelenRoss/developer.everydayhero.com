@@ -158,36 +158,52 @@ module EverydayHero
     }
 
     TeamPageData = {
-        id: 1513,
-        slug: "team-tim",
-        gift_aid_eligible: false,
-        charity_uid: "au-6",
-        campaign_uid: "au-1419",
-        owner_uid: 211,
-        owner_type: "Team",
-        uid: 1513,
-        state: "active",
-        target_cents: 70000,
-        name: "Team Tim",
-        team_uid: nil,
-        team_member_uids: [1511],
-        team_leader_page_uid: 1511,
-        expires_at: "2013-08-29T14:00:00Z",
-        amount:  {
-          cents: 0,
-          currency:  {
-          iso_code: "AUD",
-          name: "Australian Dollar",
-          symbol: "$"
+      id:2511,
+      slug:"my-new-team",
+      gift_aid_eligible:false,
+      charity_uid:"au-20",
+      campaign_uid:"au-305",
+      owner_uid:273,
+      owner_type:"Team",
+      uid:2511,
+      state:"active",
+      target_cents:50050,
+      name:"My New Team",
+      team_uid:nil,
+      team_member_uids:[2509],
+      team_leader_page_uid:2509,
+      expires_at:"2015-06-30T00:00:00.000Z",
+      amount:{
+        cents:0,
+        currency:{
+          iso_code:"AUD",
+          name:"Australian Dollar",
+          symbol:"$"
         }
       },
-      cached_offline_amount_cents: 0,
-      invitation_id: nil,
-      custom_metric_total: {amount: '100', unit: 'steps'}
+      cached_offline_amount_cents:0,
+      campaign_date:nil,
+      fitness_activity_overview:{},
+      story:"I've created this page because I want to make a difference. I'm inspired by the work of Test Charity for messaging and wanted to support them by raising money as part of my participation in Sandbox2. Please help me help them by giving whatever you can using the 'Give Now' button. The more people that know about Test Charity for messaging, the greater their impact, so please also spread the word by sharing my page with your friends and family. Thank you in advance for your generosity, it means a lot!\n",
+      image:{
+        original_image_url:"https://dqw0wvb05w98x.cloudfront.net/assets/pages/images/original/missing.gif",
+        tiny_image_url:"https://dqw0wvb05w98x.cloudfront.net/assets/pages/images/tiny/missing.gif",
+        small_image_url:"https://dqw0wvb05w98x.cloudfront.net/assets/pages/images/small/missing.gif",
+        medium_image_url:"https://dqw0wvb05w98x.cloudfront.net/assets/pages/images/medium/missing.gif",
+        large_image_url:"https://dqw0wvb05w98x.cloudfront.net/assets/pages/images/large/missing.gif"
+      },
+      created_at:"2015-04-07T04:33:51.708Z",
+      updated_at:"2015-04-07T04:33:51.801Z",
+      url:"https://sandbox2.edheroz.com/au/my-new-team",
+      invitation_id:nil,
+      coordinate:{
+        lat:-27.46,
+        lon:153.03
+      }
     }
 
     Teampage = {
-      teampage: [TeamPageData]
+      page: [TeamPageData]
     }
 
     InvitationData = {
